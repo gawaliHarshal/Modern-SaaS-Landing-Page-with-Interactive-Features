@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Figma Land</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts: Open Sans -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation/Header -->
+    <header>
+        <nav class="navbar">
+            
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li class="logo-li">
+                  <div class="logo">
+                    <img src="assets/logo.png" alt="Figma Land logo" style="height:32px; vertical-align:middle;">
+                  </div>
+                </li>
+            </ul>
+
+             
+            <div class="social-icons">
+                <a href="#" target="_blank" aria-label="Twitter">
+                    <img src="assets/twitter.png" alt="">
+                </a>
+                <a href="#" target="_blank" aria-label="Facebook">
+                    <img src="assets/facebook.png" alt="">
+                </a>
+                <a href="#" target="_blank" aria-label="LinkedIn">
+                   <img src="assets/linkedin.png" alt="">
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero/Main Section -->
+    <section class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1>
+                The best products<br>
+                start with Figma
+               
+            </h1>
+            <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
+            <a href="#" class="cta-btn">Try For Free</a>
+        </div>
+    </section>
+
+  <!-- product Section -->
+   <!-- feature -->
+    <section class="features">
+        <div class="container">
+          <h2 class="features-title">Features</h2>
+          <p class="features-desc">
+            Most calendars are designed for teams.<br>
+            Slate is designed for freelancers
+          </p>
+          <div class="features-grid">
+            <div class="feature">
+              <div class="feature-icon">
+                <img src="assets/Vector.png" alt="Variable Fonts" width="40" height="40">
+              </div>
+              <h3>OpenType features<br>Variable fonts</h3>
+              <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
+            </div>
+            <div class="feature">
+              <div class="feature-icon">
+                <img src="assets/Vector2.png" alt="Design with real data" width="40" height="40">
+              </div>
+              <h3>Design with real data</h3>
+              <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
+            </div>
+            <div class="feature">
+              <div class="feature-icon">
+                <img src="assets/Vector3.png" alt="Fastest way" width="40" height="40">
+              </div>
+              <h3>Fastest way to<br>take action</h3>
+              <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- video -->
+      <section class="product-video-section">
+        <div class="video-container">
+            <img id="videoPoster" class="video-poster" src="assets/samplevideoposter.png" alt="Product Video Poster">
+            <video id="productVideo">
+            <source src="assets/SampleVideo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <button class="play-btn" id="playPauseBtn" aria-label="Play video">
+            <!-- SVG Play Icon -->
+            <svg id="playIcon" xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none">
+              <circle cx="28" cy="28" r="28" fill="#2196F3"/>
+              <polygon points="22,17 40,28 22,39" fill="#fff"/>
+            </svg>
+          </button>
+        </div>
+      </section>
+
+
+      <!-- ORGANIZE SECTION -->
+<section class="organize-section">
+    <div class="organize-container">
+      <div class="organize-left">
+        <h2>Fastest way to<br>organize</h2>
+        <p>Most calendars are designed for teams.<br>Slate is designed for freelancers</p>
+        <a href="#" class="cta-btn">Try For Free</a>
+      </div>
+      <div class="organize-right">
+        <img src="assets/macbook.png" alt="App on Laptop" class="organize-img">
+      </div>
+    </div>
+  </section>
+  
+  <!-- NEWSLETTER SECTION -->
+  <section class="newsletter-section">
+    <div class="newsletter-container">
+      <div class="newsletter-illustration">
+        <img src="assets/atyour.png" alt="Newsletter Illustration">
+      </div>
+      <div class="newsletter-content">
+        <p class="newsletter-top">At your fingertips</p>
+        <h2>Lightning fast<br>prototyping</h2>
+        <p class="newsletter-sub">
+          <b>Subscribe to our Newsletter</b><br>
+          <span>Available exclusively on Figmaland</span>
+        </p>
+        <form class="newsletter-form" autocomplete="off">
+          <input type="email" name="email" placeholder="Your Email" required>
+          <button type="submit" class="newsletter-btn">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+<!-- partner -->
+ 
+  <section class="partners-section">
+    <div class="partners-container">
+      <h2 class="partners-title">Partners</h2>
+      <p class="partners-desc">
+        Most calendars are designed for teams.<br>
+        Slate is designed for freelancers
+      </p>
+      <div class="partners-grid">
+        <div class="partner-card">
+          <span class="client-label">Client Name</span>
+          <img src="assets/google.png" alt="Google">
+        </div>
+        <div class="partner-card">
+          <span class="client-label">Client Name</span>
+          <img src="assets/amazon.png" alt="Amazon">
+        </div>
+        <div class="partner-card">
+          <span class="client-label">Client Name</span>
+          <img src="assets/microsoft.png" alt="Microsoft">
+        </div>
+        <div class="partner-card">
+          <span class="client-label">Client Name</span>
+          <img src="assets/uber.png" alt="Uber">
+        </div>
+        <div class="partner-card">
+          <span class="client-label">Client Name</span>
+          <img src="assets/dropbox.png" alt="Dropbox">
+        </div>
+        <div class="partner-card">
+          <span class="client-label">Client Name</span>
+          <img src="assets/google.png" alt="Google">
+        </div>
+        <div class="partner-card">
+          <span class="client-label">Client Name</span>
+          <img src="assets/uber.png" alt="Uber">
+        </div>
+        <div class="partner-card">
+          <span class="client-label">Client Name</span>
+          <img src="assets/amazon.png" alt="Amazon">
+        </div>
+      </div>
+      <a href="#" class="cta-btn partners-btn">Try For Free</a>
+    </div>
+  </section>
+
+  <!-- testimonial -->
+  <section class="testimonials-section">
+    <h2 class="testimonials-title">Testimonials</h2>
+    <div class="testimonial-slider" id="testimonialSlider">
+      <div class="testimonial-slide active">
+        <div class="testimonial-logo">
+          <img src="assets/ibm.png" alt="IBM Logo" height="38">
+        </div>
+        <p class="testimonial-text">
+          Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.
+        </p>
+        <div class="testimonial-author">
+          <img src="assets/client.png" alt="John Doe" class="testimonial-avatar">
+          <span>
+            <span class="testimonial-name">John Doe</span>
+            <span class="testimonial-job">UI designer</span>
+          </span>
+        </div>
+      </div>
+      <div class="testimonial-slide">
+        <div class="testimonial-logo">
+          <img src="assets/ibm.png" alt="Google Logo" height="34">
+        </div>
+        <p class="testimonial-text">
+          This is the best tool for managing my time as a freelancer. Completely changed how I work!
+        </p>
+        <div class="testimonial-author">
+          <img src="assets/client.png" alt="Jane Smith" class="testimonial-avatar">
+          <span>
+            <span class="testimonial-name">Jane Smith</span>
+            <span class="testimonial-job">Product Designer</span>
+          </span>
+        </div>
+      </div>
+      <div class="testimonial-slide">
+        <div class="testimonial-logo">
+          <img src="assets/ibm.png" alt="Uber Logo" height="34">
+        </div>
+        <p class="testimonial-text">
+          Simple, elegant, and powerful. My favorite calendar app. Highly recommended.
+        </p>
+        <div class="testimonial-author">
+          <img src="assets/client.png" alt="Eric Lin" class="testimonial-avatar">
+          <span>
+            <span class="testimonial-name">Eric Lin</span>
+            <span class="testimonial-job">UX Researcher</span>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-dots" id="testimonialDots">
+      <!-- JS will auto-create dots -->
+    </div>
+  </section>
+
+  <!-- pricing -->
+  <section class="pricing-section" id="pricing">
+    <div class="pricing-container">
+      <div class="pricing-header">
+        <h2>Pricing</h2>
+        <p>
+          Most calendars are designed for teams.<br>
+          Slate is designed for freelancers
+        </p>
+      </div>
+      <div class="pricing-grid">
+        <!-- Free plan -->
+        <div class="pricing-card">
+          <div class="pricing-header-card">
+            <h3>FREE</h3>
+            <p>Organize across all apps by hand</p>
+          </div>
+          <div class="price">
+            <span class="currency">0<span style="font-size:1.4rem;">$</span></span>
+            <span class="period">Per Month</span>
+          </div>
+          <ul class="pricing-features">
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+          </ul>
+          <a href="#" class="cta-btn btn-order">Order Now</a>
+        </div>
+        <!-- Standard plan -->
+        <div class="pricing-card featured">
+          <div class="pricing-header-card">
+            <h3>STANDARD</h3>
+            <p>Organize across all apps by hand</p>
+          </div>
+          <div class="price">
+            <span class="currency">10<span style="font-size:1.4rem;">$</span></span>
+            <span class="period">Per Month</span>
+          </div>
+          <ul class="pricing-features">
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+          </ul>
+          <a href="#" class="cta-btn btn-order">Order Now</a>
+        </div>
+        <!-- Business plan -->
+        <div class="pricing-card">
+          <div class="pricing-header-card">
+            <h3>BUSINESS</h3>
+            <p>Organize across all apps by hand</p>
+          </div>
+          <div class="price">
+            <span class="currency">99<span style="font-size:1.4rem;">$</span></span>
+            <span class="period">Per Month</span>
+          </div>
+          <ul class="pricing-features">
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+          </ul>
+          <a href="#" class="cta-btn btn-order">Order Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- contact us  -->
+<section class="contact-section" id="contact">
+    <div class="contact-container">
+      <div class="contact-form-section">
+        <h2>Contact Us</h2>
+        <form id="contactForm" autocomplete="off" novalidate>
+          <div class="form-group">
+            <input type="text" name="name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="cta-btn contact-btn">Send</button>
+        </form>
+      </div>
+
+      <div class="contact-info-section">
+        
+        <div class="contact-details">
+            <div class="contact-info-row">
+              <span class="contact-icon">
+               
+                <img src="assets/map.png" alt="">
+              </span>
+              <span class="contact-info-text">
+                6386 Spring St, Anchorage,<br>
+                Georgia 12473, US
+              </span>
+            </div>
+            <div class="contact-info-row">
+              <span class="contact-icon">
+                
+               <img src="assets/phone.png" alt="">
+        
+              </span>
+              <span class="contact-info-text">
+                (843) 555-0130
+              </span>
+            </div>
+            <div class="contact-info-row">
+              <span class="contact-icon">
+               
+               <img src="assets/email.png" alt="">
+              </span>
+              <span class="contact-info-text">
+                willie.jennings@example.com
+              </span>
+            </div>
+          </div>
+
+        
+        <div class="contact-map">
+          <!-- Replace src below with your copied embeddable Google Maps iframe link -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.741992056423!2d-122.41941548468199!3d37.77492977975973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808581819568be1f%3A0x3a7489ae9787cd82!2s6386%20Spring%20St%2C%20Anchorage%2C%20GA%2012473%2C%20USA!5e0!3m2!1sen!2sin!4v1626547890123"
+            width="100%" height="220" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            title="Google Map"></iframe>
+        </div>
+        <div class="contact-social">
+            <a href="#"><img src="assets/twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="assets/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="assets/linkedin.png" alt="LinkedIn"></a>
+          </div>
+          
+      </div>
+    </div>
+  
+    <!-- Modal -->
+    <div class="modal" id="contactModal" tabindex="-1" aria-modal="true" role="dialog" style="display:none">
+      <div class="modal-content">
+        <button class="modal-close" id="closeModal" aria-label="Close">&times;</button>
+        <div class="modal-body">
+          <h3>Your query sent successfully</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- footer -->
+  <footer class="footer-section">
+    <div class="footer-container">
+      <div class="footer-column">
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Partners</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Tomothy</h4>
+        <ul>
+          <li><a href="#">Eleanor Edwards</a></li>
+          <li><a href="#">Ted Robertson</a></li>
+          <li><a href="#">Annette Russell</a></li>
+          <li><a href="#">Jennie Mckinney</a></li>
+          <li><a href="#">Gloria Richards</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Jane Black</h4>
+        <ul>
+          <li><a href="#">Philip Jones</a></li>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">Colleen Russell</a></li>
+          <li><a href="#">Marvin Hawkins</a></li>
+          <li><a href="#">Bruce Simmons</a></li>
+        </ul>
+    </div> 
+      <div class="footer-contact">
+        <div class="footer-info-row">
+          <span class="footer-icon">
+       
+            <img src="assets/map.png" alt="">
+          </span>
+          <span class="footer-info-text">7480 Mistwood Holo</span>
+        </div>
+        <div class="footer-info-row">
+          <span class="footer-icon">
+            
+          <img src="assets/phone.png" alt="">
+          </span>
+          <span class="footer-info-text">(239) 555-0108</span>
+        </div>
+   
+        <div class="footer-social">
+          <a href="#"><img src="assets/twitter.png" alt="Twitter"></a>
+          <a href="#"><img src="assets/facebook.png" alt="Facebook"></a>
+          <a href="#"><img src="assets/linkedin.png" alt="LinkedIn"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+
+    <script src="script.js"></script>
+</body>
+</html>
